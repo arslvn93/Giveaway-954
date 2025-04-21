@@ -1,30 +1,28 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTc0NTI0ODMxNnww&ixlib=rb-4.0.3",
+  "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHw2fHxjYWZlfGVufDB8fHx8MTc0NTI0ODMxNnww&ixlib=rb-4.0.3", 
+  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwxMHx8Y2FmZXxlbnwwfHx8fDE3NDUyNDgzMTZ8MA&ixlib=rb-4.0.3", 
 ];
-
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Exclusive $420 Jays Game Experience",
+  description: "Win an unforgettable day out witnessing live baseball action at the iconic Rogers Centre. Experience the electrifying atmosphere of a Toronto Blue Jays game – a premium outing valued at $420 perfect for sports enthusiasts and fans alike.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Enjoy premium seating for live baseball excitement at the Rogers Centre",
+    "Celebrate the day with a friend or special someone",
+    "Exclusive access to an unforgettable game day experience",
+    "A prize package valued at $420",
+    "Limited-time opportunity to create unforgettable summer memories",
   ],
-  value: "$175",
+  value: "$420",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a $420 Jays Game Experience!",
+  description: "Experience the thrill of live baseball at the Toronto Blue Jays game! Enter now for your chance to win an exclusive day out, valued at $420, designed for true sports enthusiasts.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
   secondaryImage: prizeImages[1], // Add secondary image for the header
@@ -32,7 +30,7 @@ export const headerContent = {
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Jays Game Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -45,12 +43,12 @@ export const navigationContent = {
 // How to Enter section
 export const howToEnterContent = {
   title: "How to Enter",
-  description: "Getting started is easy! Follow these simple steps to enter our giveaway.",
+  description: "Entering is as easy as 1-2-3! Follow these simple steps for your chance to win an unforgettable Jays game experience.",
   steps: [
     {
       icon: "Mail",
       title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      description: "Enter your name and email, then submit your entry."
     },
     {
       icon: "Share2",
@@ -76,8 +74,8 @@ export const howToEnterContent = {
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "Exclusive Prize", 
+      desc: "Valued at $420" 
     }
   ],
   formLabels: {
@@ -93,9 +91,9 @@ export const howToEnterContent = {
   },
   successMessage: {
     title: "Entry Submitted!",
-    description: "Check your email to confirm your entry."
+    description: "Check your email to confirm your entry for the Jays game giveaway."
   },
-  currentEntries: 482
+  currentEntries: 732
 };
 
 // Rules section
@@ -105,11 +103,11 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older residing in the Greater Toronto Area can enter this giveaway.",
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "This giveaway runs until July 7, 2025, as indicated by the countdown timer.",
     },
     {
       question: "How will the winner be selected?",
@@ -143,11 +141,11 @@ export const rulesContent = {
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "alexander@condos.ca",
+  phone: "",
   brokerage: {
-    name: "Toronto Sports Entertainment",
-    address: "123 Arena Blvd, Toronto"
+    name: "Condos.ca",
+    address: "Toronto, ON"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
@@ -156,24 +154,24 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "Condos.ca Giveaway offers exclusive experiences to our valued clients with a passion for sports and memorable live events.",
+  email: "alexander@condos.ca",
+  phone: "",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
-    address: "123 Arena Blvd, Toronto"
+    name: "Condos.ca",
+    address: "Toronto, ON"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "Condos.ca",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("July 7, 2025") 
 };
 
 // Color scheme configuration for the entire giveaway
